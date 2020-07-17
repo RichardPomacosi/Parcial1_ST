@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 # include <math.h>
+#include<omp.h>
 void llenar(double M[500][500], int m, int n){
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
